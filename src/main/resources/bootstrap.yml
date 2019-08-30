@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    vault:
+      scheme: http
+      host: localhost
+      port: 8200
+      connection-timeout: 5000
+      read-timeout: 15000
+      authentication: token
+      token: 12345-6789-0000
+      kv:
+        enabled: true
+      generic:
+        enabled: false
