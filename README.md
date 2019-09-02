@@ -96,6 +96,6 @@ Here @Value("${**spring.datasource.username**}") retrieved from the **Vault**.
 
 ### Output
 
-![vault-screen-1.png](vault-screen-2.png)
+![vault-screen-1.png](vault-screen-1.png)
 
 ### Happy Coding
