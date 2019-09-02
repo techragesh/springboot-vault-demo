@@ -21,6 +21,19 @@ vault server -dev -dev-root-token-id=<token value>
 export VAULT_ADDR='http://127.0.0.1:8200'
 
 ```
+
+### Screenshot
+
+![vault-config.png](vault-config.png)
+
+![vault-screen-3.png](vault-screen-3.png)
+
+### Store vaules
+
+I am storing username and password for H2 database in the Vault.
+
+![vault-screen-2.png](vault-screen-2.png)
+
 ### How to configure HashiCorp Vault in Spring Boot
 
 I have taken the H2 database connection as an example where i am storing username and password in secret vault.
@@ -80,3 +93,9 @@ public class DemoController {
 ```
 
 Here @Value("${**spring.datasource.username**}") retrieved from the **Vault**.
+
+### Output
+
+![vault-screen-1.png](vault-screen-2.png)
+
+### Happy Coding
